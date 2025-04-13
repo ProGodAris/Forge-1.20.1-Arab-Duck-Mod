@@ -1,11 +1,11 @@
 {
-  "type": "minecraft:blasting",
+  "type": "minecraft:smelting",
   "category": "misc",
-  "cookingtime": 200,
+  "cookingtime": 400,
   "experience": 5.0,
   "group": "duck_ore",
   "ingredient": {
     "item": "arabduckmod:raw_duck_ore"
   },
-  "result": "arabduckmod:duck_ore"
+  "result": "arabduckmod:duck_ingot"
 }

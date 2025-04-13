@@ -11,7 +11,7 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, ArabDuckMod.MOD_ID);
 
-    public static final RegistryObject<Item> DUCK_ORE = ITEMS.register("duck_ore",
+    public static final RegistryObject<Item> DUCK_INGOT = ITEMS.register("duck_ingot",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> RAW_DUCK_ORE = ITEMS.register("raw_duck_ore",
             () -> new Item(new Item.Properties()));

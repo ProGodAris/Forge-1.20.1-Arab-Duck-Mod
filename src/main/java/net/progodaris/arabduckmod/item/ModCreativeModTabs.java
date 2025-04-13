@@ -2,7 +2,6 @@ package net.progodaris.arabduckmod.item;
 
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
-import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -16,13 +15,16 @@ public class ModCreativeModTabs {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, ArabDuckMod.MOD_ID);
 
     public static final RegistryObject<CreativeModeTab> DUCK_TAB = CREATIVE_MODE_TABS.register("duck_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.DUCK_ORE.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.DUCK_INGOT.get()))
                     .title(Component.translatable("creativetab.duck_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
-                        output.accept(ModItems.DUCK_ORE.get());
+                        output.accept(ModItems.DUCK_INGOT.get());
                         output.accept(ModItems.RAW_DUCK_ORE.get());
 
                         output.accept(ModBlocks.DUCK_BLOCK.get());
+
+                        output.accept(ModBlocks.DUCK_ORE.get());
+                        output.accept(ModBlocks.DEEPSLATE_DUCK_ORE.get());
                     })
                     .build());
 

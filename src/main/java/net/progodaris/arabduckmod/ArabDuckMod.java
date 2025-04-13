@@ -51,7 +51,7 @@ public class ArabDuckMod
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.DUCK_ORE);
+            event.accept(ModItems.DUCK_INGOT);
             event.accept(ModItems.RAW_DUCK_ORE);
         }
     }

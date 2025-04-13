@@ -1,8 +1,10 @@
 {
-  "item.arabduckmod.duck_ore": "Duck Ore",
+  "item.arabduckmod.duck_ore": "Duck Ingot",
   "item.arabduckmod.raw_duck_ore": "Raw Duck Ore",
 
   "block.arabduckmod.duck_block": "Duck Ore Block",
+  "block.arabduckmod.duck_ore": "Duck Ore",
+  "block.arabduckmod.deepslate_duck_ore": "Deepslate Duck Ore",
 
   "creativetab.duck_tab": "Arab Duck Tab"
 }
