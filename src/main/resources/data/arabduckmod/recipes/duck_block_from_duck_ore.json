@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "arabduckmod:duck_ore"
+    }
+  },
+  "result": {
+    "item": "arabduckmod:duck_block"
+  }
+}

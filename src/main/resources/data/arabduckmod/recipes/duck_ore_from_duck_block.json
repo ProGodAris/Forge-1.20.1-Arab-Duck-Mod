@@ -1,0 +1,13 @@
+{
+  "type":"minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "arabduckmod:duck_block"
+    }
+  ],
+  "result": {
+    "item": "arabduckmod:duck_ore",
+    "count": 9
+  }
+}
