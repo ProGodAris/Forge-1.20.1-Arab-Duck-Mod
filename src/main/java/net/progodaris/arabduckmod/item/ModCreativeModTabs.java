@@ -21,6 +21,8 @@ public class ModCreativeModTabs {
                         output.accept(ModItems.DUCK_INGOT.get());
                         output.accept(ModItems.RAW_DUCK_ORE.get());
 
+                        output.accept(ModItems.DUCK_DETECTOR.get());
+
                         output.accept(ModBlocks.DUCK_BLOCK.get());
 
                         output.accept(ModBlocks.DUCK_ORE.get());

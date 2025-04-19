@@ -1,6 +1,9 @@
 {
-  "item.arabduckmod.duck_ore": "Duck Ingot",
+  "item.arabduckmod.duck_ingot": "Duck Ingot",
   "item.arabduckmod.raw_duck_ore": "Raw Duck Ore",
+
+
+  "item.arabduckmod.duck_detector": "Duck Detector",
 
   "block.arabduckmod.duck_block": "Duck Ore Block",
   "block.arabduckmod.duck_ore": "Duck Ore",

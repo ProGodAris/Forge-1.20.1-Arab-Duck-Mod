@@ -6,6 +6,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.progodaris.arabduckmod.ArabDuckMod;
+import net.progodaris.arabduckmod.item.custom.DuckDetectorItem;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
@@ -15,6 +16,9 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> RAW_DUCK_ORE = ITEMS.register("raw_duck_ore",
             () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> DUCK_DETECTOR = ITEMS.register("duck_detector",
+            () -> new DuckDetectorItem(new Item.Properties().durability(256)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
